@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from my cloud App!"
+    return "Python app is deployed!"
 
 def greet():
     print("This is additional code after deploying")
