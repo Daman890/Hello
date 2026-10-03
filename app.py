@@ -5,5 +5,8 @@ app = Flask(__name__)
 def hello():
     return "Hello from my cloud App!"
 
+def greet():
+    print("This is additional code after deploying")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
